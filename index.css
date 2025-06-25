@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background: #301b30;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.logo {
+    width: 4rem;
+    height:4rem;
+    border-radius: 8px;
+    border: 2px solid rgb(136, 43, 124);
+}
+
+.btn{
+    color: rgb(200, 171, 204);
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.tex {
+    justify-content: space-between;
+}
+
+.tx{
+    font-size: 80px;
+    color: white;
+    font-family: "Caprasimo", serif;
+    flex: 1 1 100%;
+    text-align: left;
+}
+
+.tx1 {
+    font-size: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.tx2 {
+    font-size: 45px;
+    flex: 1 1 100%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.tx3{
+        font-size: 50px;
+    color: white;
+    font-family: "Caprasimo", serif;
+    flex: 1 1 100%;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .nombre {
+        font-size: 28px;
+    }
+
+    .tx1 {
+        font-size: 50px;
+    }
+
+    .tx2 {
+        font-size: 28px;
+    }
+
+    .siguiente,
+    .git {
+        font-size: 16px;
+    }
+}

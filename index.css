@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: #301b30;
+    background: #917391;
     padding: 20px;
     margin: 0;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .btn{
-    color: rgb(200, 171, 204);
+    color: black;
     text-align: center;
     display: block;
     margin: 20px auto 0;
@@ -40,7 +40,7 @@ body {
 
 .tx{
     font-size: 80px;
-    color: white;
+    color: black;
     font-family: "Caprasimo", serif;
     flex: 1 1 100%;
     text-align: left;
@@ -48,7 +48,7 @@ body {
 
 .tx1 {
     font-size: 50px;
-    color: white;
+    color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
 }
@@ -56,14 +56,14 @@ body {
 .tx2 {
     font-size: 45px;
     flex: 1 1 100%;
-    color: white;
+    color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
 }
 
 .tx3{
         font-size: 50px;
-    color: white;
+    color: black;
     font-family: "Caprasimo", serif;
     flex: 1 1 100%;
     text-align: left;

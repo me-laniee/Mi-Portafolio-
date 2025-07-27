@@ -1,6 +1,6 @@
 .fondo {
     font-family: sans-serif;
-    background: #f8f0f8;
+    background: #e6cce6;
     padding: 20px;
     margin: 0;
 }
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid #5f3f5e;
+    border: 1px solid #d3a8d1;
     margin-bottom: 30px;
 }
 
@@ -20,16 +20,16 @@
     margin: 15px auto;
     display: block;
     font-size: 15px;
-    width: fit-content;
     padding: 8px 16px;
-    border: 2px solid #5f3f5e;
+    border: 2px solid #d3a8d1;
     border-radius: 8px;
-    background-color: #f3daf5;
+    background-color: #f0c8f3;
+    width: fit-content;
     transition: all 0.3s;
 }
 
 .btn:hover {
-    background-color: #5f3f5e;
+    background-color: #d3a8d1;
     color: white;
 }
 
@@ -84,16 +84,16 @@
     max-width: 500px;
     height: auto;
     padding: 25px;
-    border: 2px solid #5f3f5e;
+    border: 2px solid #d3a8d1;
     border-radius: 15px;
-    background-color: #ebb7f0;
+    background-color: #f5d7f8;
     box-sizing: border-box;
 }
 
 .titulo {
     text-align: center;
     font-size: 30px;
-    color: #3a0b36;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -105,21 +105,21 @@
 }
 
 .img {
-    width: 280px;
+    width: 100%;
+    max-width: 300px;
     height: 200px;
     border-radius: 10px;
     object-fit: cover;
-    border: 1px solid #5f3f5e;
 }
 
 .tex {
-    font-size: 18px;
-    color: #3a0b36;
+    font-size: 20px;
+    color: black;
     text-align: center;
-    line-height: 1.5;
+    padding: 0 10px;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
     .cua {
         width: calc(50% - 30px);
@@ -128,32 +128,46 @@
 
 @media (max-width: 768px) {
     .here {
-        font-size: 70px;
+        font-size: 80px;
+        margin-left: 10px;
     }
 
     .hi {
-        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 19px;
     }
 
     .hi2 {
-        font-size: 24px;
+        font-size: 20px;
+        text-align: start;
     }
 
     .cuas {
         flex-direction: column;
         align-items: center;
-        gap: 40px;
         margin-top: 80px;
+        gap: 40px;
     }
 
     .cua {
         width: 90%;
-        max-width: 100%;
+        max-width: 450px;
+        height: auto;
+        padding: 15px;
+        background-color: #e3ace7;
+        border-color: #ddaedb;
     }
 
     .img {
-        width: 250px;
-        height: 180px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .tex {
+        font-size: 20px;
+        max-width: 100%;
+        text-align: justify;
     }
 }
 
@@ -163,7 +177,7 @@
     }
 
     .img {
-        width: 220px;
-        height: 160px;
+        width: 180px;
+        height: 130px;
     }
 }

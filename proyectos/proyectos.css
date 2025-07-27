@@ -1,6 +1,6 @@
 .fondo {
     font-family: sans-serif;
-    background: #f8f0f8;
+    background: #f1d7f1;
     padding: 20px;
     margin: 0;
 }
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid #5f3f5e;
+    border: 1px solid #d3a8d1;
     margin-bottom: 30px;
 }
 
@@ -17,19 +17,19 @@
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin: 15px auto;
+    margin: 10px auto;
     display: block;
     font-size: 15px;
     width: fit-content;
     padding: 8px 16px;
-    border: 2px solid #5f3f5e;
+    border: 2px solid #d3a8d1;
     border-radius: 8px;
-    background-color: #f3daf5;
+    background-color: #f8e8fa;
     transition: all 0.3s;
 }
 
 .btn:hover {
-    background-color: #5f3f5e;
+    background-color: #d3a8d1;
     color: white;
 }
 
@@ -84,16 +84,16 @@
     max-width: 500px;
     height: auto;
     padding: 25px;
-    border: 2px solid #5f3f5e;
+    border: 2px solid #d3a8d1;
     border-radius: 15px;
-    background-color: #ebb7f0;
+    background-color: #f5d7f8;
     box-sizing: border-box;
 }
 
 .titulo {
     text-align: center;
     font-size: 30px;
-    color: #3a0b36;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -101,25 +101,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .img {
     width: 280px;
-    height: 200px;
+    height: 280px;
     border-radius: 10px;
     object-fit: cover;
-    border: 1px solid #5f3f5e;
+    border: 1px solid #e0b0de;
 }
 
 .tex {
     font-size: 18px;
-    color: #3a0b36;
+    color: black;
     text-align: center;
     line-height: 1.5;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
     .cua {
         width: calc(50% - 30px);
@@ -142,18 +142,21 @@
     .cuas {
         flex-direction: column;
         align-items: center;
-        gap: 40px;
-        margin-top: 80px;
+        gap: 30px;
     }
 
     .cua {
-        width: 90%;
+        width: 100%;
         max-width: 100%;
     }
 
     .img {
-        width: 250px;
-        height: 180px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .tex {
+        font-size: 16px;
     }
 }
 
@@ -163,7 +166,7 @@
     }
 
     .img {
-        width: 220px;
-        height: 160px;
+        width: 180px;
+        height: 180px;
     }
 }
